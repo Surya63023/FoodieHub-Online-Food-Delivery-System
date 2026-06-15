@@ -1,0 +1,118 @@
+user
+restaurant
+menu
+orders
+orderitem
+
+and the relationships are:
+
+USER
+ │
+ ├── 1 : N ───── RESTAURANT
+ │                 (adminUserId)
+ │
+ └── 1 : N ───── ORDERS
+                    │
+                    │
+RESTAURANT ── 1 : N ┘
+      │
+      │
+      └── 1 : N ─── MENU
+                          │
+                          │
+ORDERS ───── 1 : N ───── ORDERITEM
+                          │
+                          │
+MENU ─────── 1 : N ──────┘
+
+📊 ER Diagram
+
+## 📊 Entity Relationship Diagram
+
+```text
++-------------------+
+|       USER        |
++-------------------+
+| PK userId         |
+| userName          |
+| email             |
+| phoneNumber       |
+| password          |
+| address           |
+| role              |
+| createdDate       |
+| lastLoginDate     |
++-------------------+
+          |
+          | 1
+          |
+          | N
++-------------------+
+|    RESTAURANT     |
++-------------------+
+| PK restaurantId   |
+| restaurantName    |
+| address           |
+| rating            |
+| cuisine           |
+| deliveryTime      |
+| isActive          |
+| imageURL          |
+| FK adminUserId    |
+| description       |
++-------------------+
+          |
+          | 1
+          |
+          | N
++-------------------+
+|       MENU        |
++-------------------+
+| PK menuId         |
+| menuName          |
+| price             |
+| isAvailable       |
+| description       |
+| imageURL          |
+| FK restaurantId   |
++-------------------+
+
+USER
+  |
+  | 1
+  |
+  | N
++-------------------+
+|      ORDERS       |
++-------------------+
+| PK orderId        |
+| orderDate         |
+| FK restaurantId   |
+| FK userId         |
+| totalAmount       |
+| paymentMethod     |
+| status            |
+| address           |
++-------------------+
+          |
+          | 1
+          |
+          | N
++-------------------+
+|    ORDERITEM      |
++-------------------+
+| PK orderItemId    |
+| FK orderId        |
+| itemName          |
+| FK menuId         |
+| quantity          |
+| totalPrice        |
++-------------------+
+          |
+          | N
+          |
+          | 1
++-------------------+
+|       MENU        |
++-------------------+
+```
