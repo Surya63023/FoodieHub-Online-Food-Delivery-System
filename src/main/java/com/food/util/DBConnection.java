@@ -10,14 +10,11 @@ import java.sql.SQLException;
  */
 public class DBConnection {
 
-	/** Database connection URL */
-	private static final String URL = "jdbc:mysql://localhost:3306/online_food_delivery";
+	private static final String URL = "jdbc:mysql://thomas.proxy.rlwy.net:26010/railway";
 
-	/** Database username */
 	private static final String USER = "root";
 
-	/** Database password */
-	private static final String PASSWORD = "Surya@63023";
+	private static final String PASSWORD = "fijAOXfeEbozbZILNtOkZwJXcLfVVqWt";
 
 	/**
 	 * Static block to load the MySQL JDBC driver once when the class is loaded into
