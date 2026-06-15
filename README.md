@@ -1,4 +1,4 @@
-# 🍔 FoodieHub - Online Food Delivery System
+<img width="1891" height="901" alt="image" src="https://github.com/user-attachments/assets/b78e6266-17fd-4db8-ab92-5e68795c080e" /># 🍔 FoodieHub - Online Food Delivery System
 
 A full-stack online food delivery web application built using Java Enterprise technologies. Users can browse restaurants, explore menus, add items to cart, place orders, and manage their food ordering experience through an intuitive web interface.
 
@@ -399,35 +399,35 @@ http://localhost:8080/FoodieHub/home
 
 ### 🏠 Home Page
 
-Coming Soon
+![Home Page](github-assets/foodiehub-home-page.png)
 
 ### 🔐 Login Page
 
-Coming Soon
+![Login Page](github-assets/foodiehub-login-page.png)
 
-### 📝 Registration Page
+### 📝 Register Page
 
-Coming Soon
+![Register Page](github-assets/foodiehub-register-page.png)
 
 ### 🏪 Restaurant Listing Page
 
-Coming Soon
+![Restaurant Listing Page](github-assets/foodiehub-restaurant-listing-page.png)
 
 ### 🍽 Menu Page
 
-Coming Soon
+![Menu Page](github-assets/foodiehub-menu-page.png)
 
 ### 🛒 Cart Page
 
-Coming Soon
+![Cart Page](github-assets/foodiehub-cart-page.png)
 
 ### 📦 Order Confirmation Page
 
-Coming Soon
+![Order Confirmation Page](github-assets/foodiehub-order-confirmation-page.png)
 
 ### ✅ Order Success Page
 
-Coming Soon
+![Order Success Page](github-assets/foodiehub-order-success-page.png)
 
 ---
 
