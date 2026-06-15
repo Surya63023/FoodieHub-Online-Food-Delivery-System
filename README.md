@@ -1,4 +1,4 @@
-<img width="1891" height="901" alt="image" src="https://github.com/user-attachments/assets/b78e6266-17fd-4db8-ab92-5e68795c080e" /># 🍔 FoodieHub - Online Food Delivery System
+## 🍔 FoodieHub - Online Food Delivery System
 
 A full-stack online food delivery web application built using Java Enterprise technologies. Users can browse restaurants, explore menus, add items to cart, place orders, and manage their food ordering experience through an intuitive web interface.
 
@@ -399,35 +399,35 @@ http://localhost:8080/FoodieHub/home
 
 ### 🏠 Home Page
 
-![Home Page](github-assets/foodiehub-home-page.png)
+![Home Page](github-assets/foodiehub-home-page.png.png)
 
 ### 🔐 Login Page
 
-![Login Page](github-assets/foodiehub-login-page.png)
+![Login Page](github-assets/foodiehub-login-page.png.png)
 
 ### 📝 Register Page
 
-![Register Page](github-assets/foodiehub-register-page.png)
+![Register Page](github-assets/foodiehub-register-page.png.png)
 
 ### 🏪 Restaurant Listing Page
 
-![Restaurant Listing Page](github-assets/foodiehub-restaurant-listing-page.png)
+![Restaurant Listing Page](github-assets/foodiehub-restaurant-listing-page.png.png)
 
 ### 🍽 Menu Page
 
-![Menu Page](github-assets/foodiehub-menu-page.png)
+![Menu Page](github-assets/foodiehub-menu-page.png.png)
 
 ### 🛒 Cart Page
 
-![Cart Page](github-assets/foodiehub-cart-page.png)
+![Cart Page](github-assets/foodiehub-cart-page.png.png)
 
 ### 📦 Order Confirmation Page
 
-![Order Confirmation Page](github-assets/foodiehub-order-confirmation-page.png)
+![Order Confirmation Page](github-assets/foodiehub-order-confirmation-page.png.png)
 
 ### ✅ Order Success Page
 
-![Order Success Page](github-assets/foodiehub-order-success-page.png)
+![Order Success Page](github-assets/foodiehub-order-success-page.png.png)
 
 ---
 
