@@ -111,6 +111,66 @@ The project follows a layered architecture using DAO Design Pattern and MVC prin
 
 ---
 
+## 🗄️ Database Schema
+
+The application uses MySQL as the relational database.
+
+### Users
+
+| Column   | Type     |
+| -------- | -------- |
+| user_id  | INT (PK) |
+| name     | VARCHAR  |
+| email    | VARCHAR  |
+| password | VARCHAR  |
+| phone    | VARCHAR  |
+| address  | VARCHAR  |
+
+### Restaurants
+
+| Column          | Type     |
+| --------------- | -------- |
+| restaurant_id   | INT (PK) |
+| restaurant_name | VARCHAR  |
+| cuisine_type    | VARCHAR  |
+| rating          | DOUBLE   |
+| delivery_time   | INT      |
+
+### Menu
+
+| Column        | Type     |
+| ------------- | -------- |
+| menu_id       | INT (PK) |
+| restaurant_id | INT (FK) |
+| item_name     | VARCHAR  |
+| description   | VARCHAR  |
+| price         | DOUBLE   |
+| image_path    | VARCHAR  |
+
+### Orders
+
+| Column        | Type      |
+| ------------- | --------- |
+| order_id      | INT (PK)  |
+| user_id       | INT (FK)  |
+| restaurant_id | INT (FK)  |
+| total_amount  | DOUBLE    |
+| order_date    | TIMESTAMP |
+| status        | VARCHAR   |
+
+### Order Items
+
+| Column        | Type     |
+| ------------- | -------- |
+| order_item_id | INT (PK) |
+| order_id      | INT (FK) |
+| menu_id       | INT (FK) |
+| quantity      | INT      |
+| subtotal      | DOUBLE   |
+
+---
+
+
 ## 🏗 System Architecture
 
 ```text
