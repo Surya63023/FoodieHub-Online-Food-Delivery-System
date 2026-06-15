@@ -1,0 +1,34 @@
+# Maven Build
+target/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Eclipse Workspace
+.metadata/
+
+# Build Output
+bin/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS Files
+Thumbs.db
+.DS_Store
+
+# Temporary Files
+*.tmp
+*.bak
+
+# Generated WAR
+*.war
